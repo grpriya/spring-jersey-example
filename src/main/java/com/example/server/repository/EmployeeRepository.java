@@ -8,11 +8,11 @@ public interface EmployeeRepository {
 
     public List<Employee> getAllEmployees();
 
-    public Employee getEmployee(int id);
+    public Employee getEmployee(String id);
 
-    public void updateEmployee(Employee employee, int id);
+    public void updateEmployee(Employee employee, String id);
 
-    public void deleteEmployee(int id);
+    public void deleteEmployee(String id);
 
     public void addEmployee(Employee employee);
 }
